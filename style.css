@@ -498,3 +498,163 @@ body {
 .contact-item:hover {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 } 
+
+.offer-card .container {
+max-width: 1200px;
+margin: 40px auto;
+background: #fff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.offer-box {
+background: #e8f4ff;
+padding: 20px;
+border-left: 6px solid #0077cc;
+margin-top: 20px;
+border-radius: 8px;
+}
+
+.price {
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.old-price {
+text-decoration: line-through;
+color: #777;
+margin-right: 10px;
+}
+.qr {
+text-align: center;
+margin-top: 30px;
+}
+.qr img {
+width: 180px;
+}
+.btn {
+display: inline-block;
+padding: 12px 20px;
+background: #0077cc;
+color: #fff;
+text-decoration: none;
+border-radius: 6px;
+margin-top: 20px;
+}
+
+
+/* Section Background */
+.upcoming {
+    
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+
+/* Heading */
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+ .section-heading {
+
+  color: #1f2937;
+   font-size: 1.75rem;
+}
+
+.section-heading::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: #3e59ff; /* blue accent line */
+    display: block;
+    margin: 8px auto 0;
+    border-radius: 4px;
+}
+
+/* Container */
+.upcoming-container {
+    display: grid;
+   /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1100px;
+    margin: auto; */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+    max-width: 1100px;
+}
+
+/* Card Styling */
+.upcoming-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: left;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.upcoming-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Title */
+.upcoming-card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.upcoming-card h3 i {
+    margin-right: 10px;
+    color: #ffcc00; /* yellow icons like your Key Learning Points */
+}
+
+/* List Items */
+.upcoming-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.upcoming-card ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.upcoming-card ul li i {
+    margin-right: 10px;
+    color: #3e59ff; /* blue accent */
+    font-size: 18px;
+}
+
+/* Register Button */
+.register-box {
+    margin-top: 35px;
+}
+
+.register-btn {
+    padding: 14px 35px;
+    background: linear-gradient(45deg, #5560ff, #8b5cf6);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    opacity: 0.9;
+}

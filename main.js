@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add countdown timer for workshop date
     function updateCountdown() {
-        const workshopDate = new Date('December 6, 2025 19:00:00').getTime();
+        const workshopDate = new Date('December 7, 2025 19:00:00').getTime();
         const now = new Date().getTime();
         const distance = workshopDate - now;
 
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (distance < 0) {
-            countdownElement.innerHTML = '<div class="workshop-live">Workshop is Live!</div>';
+            countdownElement.innerHTML = '<div class="workshop-live">Workshop 2nd Day is Live!</div>';
         }
     }
 
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Check if today is workshop day
     const today = new Date();
-    const workshopDay = new Date('December 6, 2025');
+    const workshopDay = new Date('December 7, 2025');
     if (today.toDateString() === workshopDay.toDateString()) {
         highlightCurrentSession();
         setInterval(highlightCurrentSession, 60000); // Update every minute
